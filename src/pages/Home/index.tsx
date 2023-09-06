@@ -1,20 +1,18 @@
-import { Box, useTheme } from "@mui/material";
+import { Typography, Box, useTheme } from "@mui/material";
 import { Container } from "./style";
 
 export function Home() {
-  const { palette } = useTheme()
+  const Theme = useTheme();
+
   return (
     <Container>
       <Box
-        aria-label="barra lateral"
         sx={{
-          background: palette.primary.main,
+          background: Theme.palette.primary.main,
           minWidth: "40px",
           minHeight: "100vh",
         }}
       />
-      
     </Container>
-
-  )
-};
+  );
+}
