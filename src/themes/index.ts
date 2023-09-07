@@ -1,14 +1,14 @@
 import { createTheme } from "@mui/material";
 import { ColorsDarkGreen } from "./colors";
 
-
 export const Theme = createTheme({
   palette: {
     primary: {
       main: ColorsDarkGreen.emphasis
     },
     background: {
-      default: ColorsDarkGreen.background
+      default: ColorsDarkGreen.background,
+      paper: ColorsDarkGreen.backgroundEmphasis
     },
   },
   typography: {
