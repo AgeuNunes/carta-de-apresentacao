@@ -1,6 +1,8 @@
 import { Container } from "./style";
 import { Box, useTheme } from "@mui/material";
 
+import foto from "../../shared/assets/images/Perfil.jpg";
+
 export function Home() {
   const Theme = useTheme();
 
@@ -18,27 +20,29 @@ export function Home() {
           marginLeft: "50px",
         }}
       >
+        <Box>
+          <img
+            src={foto}
+            alt="Foto de perfil"
+            style={{
+              background: "#fff", //REMOVER depois de inserir a foto
+              marginTop: "50px",
+              width: "300px",
+              borderRadius: "50%",
+            }}
+          />
+        </Box>
         <Box
-          aria-label="foto"
-          sx={{
-            background: "#fff",
-            marginTop: "50px",
-            width: "300px",
-            height: "350px",
-            borderRadius: "30px",
-          }}
-        />
-        <Box
-          aria-aria-label="contatos"
+          aria-label="contatos"
           sx={{
             marginTop: "50px",
             display: "flex",
             gap: "10px",
           }}
         >
-          <Box aria-label="ícone ícones">
+          <Box aria-label="ícones">
             <Box
-              aria-label="localização"
+              aria-label="ícone localização"
               sx={{
                 background: Theme.palette.background.paper,
                 width: "60px",
@@ -64,7 +68,7 @@ export function Home() {
                 borderRadius: "15px",
               }} />
           </Box>
-          <Box aria-label="texto">
+          <Box aria-label="textos">
             <Box
               aria-label="texto localização"
               sx={{
