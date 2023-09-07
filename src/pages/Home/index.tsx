@@ -1,7 +1,11 @@
-import { Container } from "./style";
+import { BoxIcone, BoxTextoIcone, Container } from "./style";
 import { Box, useTheme } from "@mui/material";
 
-import foto from "../../shared/assets/images/Perfil.jpg";
+import Avatar from "../../shared/assets/images/Perfil.jpg";
+
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 
 export function Home() {
   const Theme = useTheme();
@@ -22,10 +26,9 @@ export function Home() {
       >
         <Box>
           <img
-            src={foto}
+            src={Avatar}
             alt="Foto de perfil"
-            style={{
-              background: "#fff", //REMOVER depois de inserir a foto
+            style={{ //REMOVER depois de inserir a foto
               marginTop: "50px",
               width: "300px",
               borderRadius: "50%",
@@ -41,60 +44,20 @@ export function Home() {
           }}
         >
           <Box aria-label="ícones">
-            <Box
-              aria-label="ícone localização"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "60px",
-                height: "60px",
-                borderRadius: "15px",
-                marginBottom: "10px",
-              }} />
-            <Box
-              aria-label="ícone telefone"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "60px",
-                height: "60px",
-                borderRadius: "15px",
-                marginBottom: "10px",
-              }} />
-            <Box
-              aria-label="ícone email"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "60px",
-                height: "60px",
-                borderRadius: "15px",
-              }} />
+            <BoxIcone style={{ background: Theme.palette.background.paper }}>
+              <LocationOnIcon color="primary" sx={{ fontSize: 30 }} />
+            </BoxIcone>
+            <BoxIcone style={{ background: Theme.palette.background.paper }}>
+              <PhoneIcon color="primary" sx={{ fontSize: 30 }} />
+            </BoxIcone>
+            <BoxIcone style={{ background: Theme.palette.background.paper }}>
+              <EmailIcon color="primary" sx={{ fontSize: 30 }} />
+            </BoxIcone>
           </Box>
           <Box aria-label="textos">
-            <Box
-              aria-label="texto localização"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "230px",
-                height: "60px",
-                borderRadius: "15px",
-                marginBottom: "10px",
-              }} />
-            <Box
-              aria-label="texto telefone"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "230px",
-                height: "60px",
-                borderRadius: "15px",
-                marginBottom: "10px",
-              }} />
-            <Box
-              aria-label="texto email"
-              sx={{
-                background: Theme.palette.background.paper,
-                width: "230px",
-                height: "60px",
-                borderRadius: "15px",
-              }} />
+            <BoxTextoIcone style={{ background: Theme.palette.background.paper }} />
+            <BoxTextoIcone style={{ background: Theme.palette.background.paper }} />
+            <BoxTextoIcone style={{ background: Theme.palette.background.paper }} />
             <Box />
           </Box>
         </Box>
