@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows11
+    runs-on: Windows 11 Pro 22H2
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
