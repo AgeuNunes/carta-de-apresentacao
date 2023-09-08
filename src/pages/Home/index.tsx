@@ -99,7 +99,7 @@ export function Home() {
           </p>
         </Box>
         <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
-          <Button variant="contained" href="https://github.com/AgeuNunes/carta-de-apresentação/raw/main/src/shared/assets/docs/AgeuNunesCV.pdf" >
+          <Button variant="contained" href="https://github.com/AgeuNunes/carta-de-apresentacao/raw/master/src/shared/assets/docs/AgeuNunesCV.pdf" >
             Download CV
           </Button>
         </Box>
