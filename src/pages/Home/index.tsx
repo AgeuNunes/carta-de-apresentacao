@@ -84,15 +84,14 @@ export function Home() {
           <p>
             Venho de uma trajetória profissional com sólidos conhecimentos na área de
             planejamento de manutenção e manutenabilidade do sistema de controle da qualidade,
-            mas sempre acreditei na tecnologia como solução dos mais diferentes tipos de
+            mas sempre acreditando na tecnologia como solução dos mais diferentes tipos de
             necessidades.
           </p>
           <p>
             Decidi então migrar para a área pela qual sempre fui apaixonando. Hoje sou acadêmico
-            no curso de engenharia de software e atuo como estagiário em desenvolvimento de
-            sistemas no Grupo ICTS onde aplico os conhecimentos já adquiridos em codificação de
-            programas utilizando as principais tecnologias e ferramentas existentes ao passo que
-            evoluo a cada dia na área de desenvolvimento de sistemas.
+            no curso de engenharia de software e atuo como estagiário no Institudo de Pesquisas e
+            Desenvolvimento Grupo ICTS, utilizando as principais tecnologias e ferramentas existentes
+            ao passo que evoluo a cada dia na área de desenvolvimento de sistemas.
           </p>
           <p>
             Considero-me um profissional focado, disciplinado, organizado, comunicativo e
