@@ -1,7 +1,5 @@
 # Cata de Apresentação
 
-Projeto desenvolvido como treinamento pessoal para a criação, do zero, de um projeto em React utilizando a linguagem de programação TypeScrip e a biblioteca Material UI.
+Este projeto é uma refatoração do meu projeto03, mas aqui utilizei uma estrutura profissional. Iniciei um projeto em React do zero utilizando a linguagem de programação TypeScrip, uma estilização em CSS, um pouco de React-Route-Dom e itens da biblioteca Material UI.
 
-Nesta página web apresento meu próprio perfil, com um breve resumo sobre mim, e meus principais contatos.
-
-Acesse-a clicando <a href="" rel="noreferrer noopener nofollow" target="blank">aqui</a>.
+Acesse-a clicando <a href="" >aqui</a>.
