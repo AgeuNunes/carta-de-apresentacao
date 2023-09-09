@@ -1,5 +1,4 @@
 import {
-  BarraLateral,
   Barrinha,
   BoxContatos,
   BoxIconeContatos,
@@ -24,51 +23,44 @@ export function Home() {
 
   return (
     <Container>
-      <BarraLateral style={{ background: Theme.palette.primary.main }} />
-      <Box>
-        <Box>
-          <img
-            src={Foto}
-            alt="Foto do perfil"
-            style={{
-              width: "300px",
-              margin: "50px",
-              marginRight: "0px", 
-              borderRadius: "50%",
-            }}
-          />
+      <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
+        <Box sx={{ background: Theme.palette.primary.main, width: "30px", height: "100%" }} />
+        <Box sx={{ width: "100%" }}>
+          <Box sx={{ margin: "50px", textAlign: "center" }}>
+            <img src={Foto} alt="Foto do perfil" style={{ width: "300px", borderRadius: "50%" }} />
+          </Box>
+          <BoxContatos>
+            <Box>
+              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <LocationOnIcon color="primary" sx={{ fontSize: 30 }} />
+              </BoxIconeContatos>
+              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <PhoneIcon color="primary" sx={{ fontSize: 30 }} />
+              </BoxIconeContatos>
+              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <EmailIcon color="primary" sx={{ fontSize: 30 }} />
+              </BoxIconeContatos>
+            </Box>
+            <Box aria-label="textos contatos">
+              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <Typography>
+                  Lírio do Vale <br /> Manaus/AM - Brasil
+                </Typography>
+              </BoxTextoContatos>
+              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <Typography>
+                  +55 92 98440-4083
+                </Typography>
+              </BoxTextoContatos>
+              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+                <Typography>
+                  nunes.ageu@gmail.com
+                </Typography>
+              </BoxTextoContatos>
+              <Box />
+            </Box>
+          </BoxContatos>
         </Box>
-        <BoxContatos>
-          <Box aria-label="ícones contatos">
-            <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <LocationOnIcon color="primary" sx={{ fontSize: 30 }} />
-            </BoxIconeContatos>
-            <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <PhoneIcon color="primary" sx={{ fontSize: 30 }} />
-            </BoxIconeContatos>
-            <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <EmailIcon color="primary" sx={{ fontSize: 30 }} />
-            </BoxIconeContatos>
-          </Box>
-          <Box aria-label="textos contatos">
-            <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <Typography>
-                Lírio do Vale <br /> Manaus/AM - Brasil
-              </Typography>
-            </BoxTextoContatos>
-            <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <Typography>
-                +55 92 98440-4083
-              </Typography>
-            </BoxTextoContatos>
-            <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
-              <Typography>
-                nunes.ageu@gmail.com
-              </Typography>
-            </BoxTextoContatos>
-            <Box />
-          </Box>
-        </BoxContatos>
       </Box>
       <Box style={{ margin: "50px" }}>
         <MeuNome>

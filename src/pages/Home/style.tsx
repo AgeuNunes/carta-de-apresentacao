@@ -1,24 +1,19 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
+  font-size: 20px;
   height: 100vh;
   display: flex;
-  font-size: 20px;
   justify-content: center;
   flex-wrap: wrap;
   
   @media (min-width: 860px) {
     flex-wrap: nowrap;
   }
-  `
+`
   
-  export const BarraLateral = styled.div`
-  min-width: 2%;
-  `
-  
-  export const BoxContatos = styled.div`
+export const BoxContatos = styled.div`
   margin: 50px;
-  margin-right: 0px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -45,14 +40,14 @@ export const BoxTextoContatos = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  `
+`
   
-  export const MeuNome = styled.div`
+export const MeuNome = styled.div`
   display: flex;
   gap: 10px;
-  `
+`
   
-  export const Barrinha = styled.div`
+export const Barrinha = styled.div`
   margin-top: 7px;
   margin-bottom: 7px;
   min-width: 8px;
