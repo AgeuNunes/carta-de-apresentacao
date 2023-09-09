@@ -31,8 +31,9 @@ export function Home() {
             src={Foto}
             alt="Foto do perfil"
             style={{
-              margin: "50px",
               width: "300px",
+              margin: "50px",
+              marginRight: "0px", 
               borderRadius: "50%",
             }}
           />
@@ -69,7 +70,7 @@ export function Home() {
           </Box>
         </BoxContatos>
       </Box>
-      <Box sx={{ marginRight: "50px" }}>
+      <Box style={{ margin: "50px" }}>
         <MeuNome>
           <Barrinha style={{ background: Theme.palette.primary.main }} />
           <Typography style={{ fontSize: "40px" }}>
@@ -80,7 +81,7 @@ export function Home() {
               }}>Ageu Nunes</strong>!
           </Typography>
         </MeuNome>
-        <Box sx={{ marginTop: "50px", textIndent: "18px", textAlign: "justify" }} >
+        <Box sx={{ textIndent: "18px", textAlign: "justify" }} >
           <p>
             Venho de uma trajetória profissional com sólidos conhecimentos na área de
             planejamento de manutenção e manutenabilidade do sistema de controle da qualidade,
@@ -100,11 +101,11 @@ export function Home() {
         </Box>
         <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
           <Button
-          variant="contained"
-          href="https://github.com/AgeuNunes/projeto04_carta-de-apresentacao/raw/master/src/shared/assets/docs/AgeuNunesCV.pdf"
-          sx={{
-            borderRadius: "10px",
-          }}
+            variant="contained"
+            href="https://github.com/AgeuNunes/projeto04_carta-de-apresentacao/raw/master/src/shared/assets/docs/AgeuNunesCV.pdf"
+            sx={{
+              borderRadius: "10px",
+            }}
           >
             Download CV
           </Button>
