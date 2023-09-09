@@ -3,7 +3,7 @@ export const ColorsUse = {
   background: "#101418",
   backgroundEmphasis: "#1e2226",
   text: "#fff",
-  emphasis: "#4cd137",
+  emphasis: "#e65100",
 }
 
 //OUTRAS PALETAS DE CORES
