@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  font-size: 15px;
+  font-size: 20px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -9,7 +9,6 @@ export const Container = styled.div`
   
   @media (min-width: 860px) {
     flex-wrap: nowrap;
-    font-size: 20px;
   }
 `
 
@@ -28,9 +27,10 @@ export const BoxImg = styled.div`
 `
 
 export const BoxTexto = styled.div`
-  margin: 50px;
+  margin: 30px;
 
   @media (min-width: 860px) {
+    margin: 50px;
     margin-left: 0px;
   }
 `
