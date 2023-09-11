@@ -21,9 +21,39 @@ export const BoxImg = styled.div`
     border-radius: 50%;
 
     @media (min-width: 860px) {
-      width: 300px;
+      width: 280px;
     }
   }
+`
+
+export const BoxContatos = styled.div`
+margin: 50px;
+display: flex;
+justify-content: center;
+gap: 10px;
+`
+
+export const BoxIconeContatos = styled.div`
+width: 60px;
+height: 60px;
+border: 2px solid;
+border-radius: 15px;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
+export const BoxTextoContatos = styled.div`
+width: 230px;
+height: 60px;
+border: 2px solid;
+border-radius: 15px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 `
 
 export const BoxTexto = styled.div`
@@ -34,37 +64,7 @@ export const BoxTexto = styled.div`
     margin-left: 0px;
   }
 `
-  
-export const BoxContatos = styled.div`
-  margin: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-`
 
-export const BoxIconeContatos = styled.div`
-  width: 60px;
-  height: 60px;
-  border: 2px solid;
-  border-radius: 15px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
-export const BoxTextoContatos = styled.div`
-  width: 230px;
-  height: 60px;
-  border: 2px solid;
-  border-radius: 15px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-`
-  
 export const MeuNome = styled.div`
   display: flex;
   gap: 10px;
