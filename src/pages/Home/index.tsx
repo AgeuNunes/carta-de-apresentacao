@@ -1,9 +1,9 @@
 import {
   Barrinha,
+  BoxAcoes,
   BoxContatos,
   BoxIconeContatos,
   BoxImg,
-  BoxMideaSocial,
   BoxTexto,
   BoxTextoContatos,
   Container,
@@ -93,28 +93,30 @@ export function Home() {
             empenhado nas atividades designadas.
           </p>
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <BoxAcoes>
           <Button
             variant="contained"
             href="https://github.com/AgeuNunes/projeto04_carta-de-apresentacao/raw/master/src/shared/assets/docs/AgeuNunesCV.pdf"
             sx={{
+              width: "200px",
+              height: "50px",
               borderRadius: "10px",
             }}
           >
             Download CV
           </Button>
-        </Box>
-        <BoxMideaSocial>
-          <IconButton color="inherit" href="https://wa.me/5592984404083" target="_blank">
-            <WhatsAppIcon fontSize="large" />
-          </IconButton>
-          <IconButton color="inherit" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
-            <LinkedInIcon fontSize="large" />
-          </IconButton>
-          <IconButton color="inherit" href="https://github.com/AgeuNunes" target="_blank">
-            <GitHubIcon fontSize="large" />
-          </IconButton>
-        </BoxMideaSocial>
+        </BoxAcoes>
+          <BoxAcoes>
+            <IconButton color="inherit" href="https://wa.me/5592984404083" target="_blank">
+              <WhatsAppIcon fontSize="large" />
+            </IconButton>
+            <IconButton color="inherit" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
+              <LinkedInIcon fontSize="large" />
+            </IconButton>
+            <IconButton color="inherit" href="https://github.com/AgeuNunes" target="_blank">
+              <GitHubIcon fontSize="large" />
+            </IconButton>
+          </BoxAcoes>
       </BoxTexto>
     </Container>
   );

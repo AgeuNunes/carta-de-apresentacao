@@ -5,63 +5,70 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   
-  @media (min-width: 860px) {
-    flex-wrap: nowrap;
+  @media (max-width: 860px) {
+    flex-wrap: wrap;
   }
 `
 
 export const BoxImg = styled.div`
   margin: 50px;
   text-align: center;
+  
+  @media (max-width: 860px) {
+    margin: 30px;
+  }
 
   img {
-    width: 200px;
+    width: 280px;
     border-radius: 50%;
 
-    @media (min-width: 860px) {
-      width: 280px;
+    @media (max-width: 860px) {
+      width: 200px;
     }
   }
 `
 
 export const BoxContatos = styled.div`
-margin: 50px;
-display: flex;
-justify-content: center;
-gap: 10px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  @media (max-width: 860px) {
+    margin: 20px;
+  }
 `
 
 export const BoxIconeContatos = styled.div`
-width: 60px;
-height: 60px;
-border: 2px solid;
-border-radius: 15px;
-margin-bottom: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export const BoxTextoContatos = styled.div`
-width: 230px;
-height: 60px;
-border: 2px solid;
-border-radius: 15px;
-margin-bottom: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
+  width: 230px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `
 
 export const BoxTexto = styled.div`
-  margin: 30px;
+  margin: 50px;
+  margin-left: 0px;
 
-  @media (min-width: 860px) {
-    margin: 50px;
-    margin-left: 0px;
+  @media (max-width: 860px) {
+    margin: 30px;
   }
 `
 
@@ -77,8 +84,13 @@ export const Barrinha = styled.div`
   border-radius: 3px;
 `
 
-export const BoxMideaSocial = styled.div`
-  margin-top: 20px;
+export const BoxAcoes = styled.div`
+  margin-top: 30px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
+  gap: 20px;
+  
+  @media (max-width: 860px) {
+    justify-content: center;
+  }
 `
