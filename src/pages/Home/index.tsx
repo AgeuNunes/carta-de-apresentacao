@@ -2,7 +2,9 @@ import {
   Barrinha,
   BoxContatos,
   BoxIconeContatos,
+  BoxImg,
   BoxMideaSocial,
+  BoxTexto,
   BoxTextoContatos,
   Container,
   MeuNome
@@ -26,9 +28,9 @@ export function Home() {
       <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
         <Box sx={{ background: Theme.palette.primary.main, width: "30px", height: "100%" }} />
         <Box sx={{ width: "100%" }}>
-          <Box sx={{ margin: "50px", textAlign: "center" }}>
-            <img src={Foto} alt="Foto do perfil" style={{ width: "300px", borderRadius: "50%" }} />
-          </Box>
+          <BoxImg>
+            <img src={Foto} alt="Foto do perfil" />
+          </BoxImg>
           <BoxContatos>
             <Box>
               <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
@@ -62,14 +64,14 @@ export function Home() {
           </BoxContatos>
         </Box>
       </Box>
-      <Box style={{ margin: "50px" }}>
+      <BoxTexto>
         <MeuNome>
           <Barrinha style={{ background: Theme.palette.primary.main }} />
-          <Typography style={{ fontSize: "40px" }}>
+          <Typography style={{ fontSize: "30px" }}>
             Olá, meu nome é <strong
               style={{
                 color: Theme.palette.primary.main,
-                fontSize: "45px",
+                fontSize: "35px",
               }}>Ageu Nunes</strong>!
           </Typography>
         </MeuNome>
@@ -113,7 +115,7 @@ export function Home() {
             <GitHubIcon fontSize="large" />
           </IconButton>
         </BoxMideaSocial>
-      </Box>
+      </BoxTexto>
     </Container>
   );
 }
