@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
   height: 100vh;
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
   justify-content: center;
   
   @media (max-width: 860px) {
