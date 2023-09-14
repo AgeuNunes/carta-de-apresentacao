@@ -1,4 +1,4 @@
-//COR ATUALMENTE EM USO
+//CORES EM USO
 export const ColorsUse = {
   background: "#101418",
   backgroundEmphasis: "#1e2226",
@@ -6,26 +6,12 @@ export const ColorsUse = {
   emphasis: "#4cd137",
 }
 
-//OUTRAS PALETAS DE CORES
+//OPÇÕES DE CORES
 export const LigthBlue = {
   background: "#fff",
   backgroundEmphasis: "#eeeeee",
   text: "#000",
   emphasis: "#283593",
-}
-
-export const LigthPink = {
-  background: "#fff",
-  backgroundEmphasis: "#eeeeee",
-  text: "#000",
-  emphasis: "#e91e63",
-}
-
-export const LigthPurple = {
-  background: "#fff",
-  backgroundEmphasis: "#eeeeee",
-  text: "#000",
-  emphasis: "#9c27b0",
 }
 
 export const DarkGreen = {
