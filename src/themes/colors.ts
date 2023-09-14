@@ -37,14 +37,14 @@ export const DarkGreen = {
 
 export const DarkYellow = {
   background: "#101418",
-  backgroundEmphasis: "#0F1012",
+  backgroundEmphasis: "#1e2226",
   text: "#fff",
   emphasis: "#ffc107",
 }
 
 export const DarkOrange = {
   background: "#101418",
-  backgroundEmphasis: "#0F1012",
+  backgroundEmphasis: "#1e2226",
   text: "#fff",
   emphasis: "#e65100",
 }
