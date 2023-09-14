@@ -1,4 +1,5 @@
 import {
+  BarraLateral,
   Barrinha,
   BoxAcoes,
   BoxContatos,
@@ -26,7 +27,7 @@ export function Home() {
   return (
     <Container>
       <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
-        <Box sx={{ background: Theme.palette.primary.main, width: "30px", height: "100%" }} />
+        <BarraLateral style={{ background: Theme.palette.primary.main }} />
         <Box sx={{ width: "100%" }}>
           <BoxImg>
             <img src={Foto} alt="Foto do perfil" />

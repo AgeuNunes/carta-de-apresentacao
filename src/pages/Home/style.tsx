@@ -11,6 +11,15 @@ export const Container = styled.div`
   }
 `
 
+export const BarraLateral = styled.div`
+  width: 30px;
+  height: 100%;
+  
+  @media (max-width: 860px) {
+    width: 15px;
+  }
+`
+
 export const BoxImg = styled.div`
   margin: 50px;
   text-align: center;
