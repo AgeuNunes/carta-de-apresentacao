@@ -2,10 +2,10 @@ import {
   BarraLateral,
   Barrinha,
   BoxAcoes,
+  BoxApresentacao,
   BoxContatos,
   BoxIconeContatos,
   BoxImg,
-  BoxTexto,
   BoxTextoContatos,
   Container,
   MeuNome
@@ -17,6 +17,7 @@ import Foto from "../../shared/assets/images/perfil1800.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
+import DownloadIcon from '@mui/icons-material/Download';
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -35,13 +36,13 @@ export function Home() {
           <BoxContatos>
             <Box>
               <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-                <LocationOnIcon color="primary" sx={{ fontSize: 30 }} />
+                <LocationOnIcon color="primary" />
               </BoxIconeContatos>
               <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-                <PhoneIcon color="primary" sx={{ fontSize: 30 }} />
+                <PhoneIcon color="primary" />
               </BoxIconeContatos>
               <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
-                <EmailIcon color="primary" sx={{ fontSize: 30 }} />
+                <EmailIcon color="primary" />
               </BoxIconeContatos>
             </Box>
             <Box aria-label="textos contatos">
@@ -65,7 +66,7 @@ export function Home() {
           </BoxContatos>
         </Box>
       </Box>
-      <BoxTexto>
+      <BoxApresentacao>
         <MeuNome>
           <Barrinha style={{ background: Theme.palette.primary.main }} />
           <Typography style={{ fontSize: "30px" }}>
@@ -98,13 +99,13 @@ export function Home() {
           <Button
             variant="contained"
             href="https://github.com/AgeuNunes/projeto04_carta-de-apresentacao/raw/master/src/shared/assets/docs/AgeuNunesCV.pdf"
+            endIcon={<DownloadIcon />}
             sx={{
-              width: "200px",
-              height: "50px",
+              height: "36px",
               borderRadius: "10px",
             }}
           >
-            Download CV
+            Currículo
           </Button>
         </BoxAcoes>
           <BoxAcoes>
@@ -118,7 +119,7 @@ export function Home() {
               <GitHubIcon fontSize="large" />
             </IconButton>
           </BoxAcoes>
-      </BoxTexto>
+      </BoxApresentacao>
     </Container>
   );
 }

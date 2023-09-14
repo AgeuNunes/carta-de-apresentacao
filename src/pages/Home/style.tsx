@@ -1,13 +1,14 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  font-size: 20px;
   height: 100vh;
   display: flex;
+  font-size: 18px;
   justify-content: center;
   
   @media (max-width: 860px) {
     flex-wrap: wrap;
+    font-size: 15px;
   }
 `
 
@@ -29,11 +30,11 @@ export const BoxImg = styled.div`
   }
 
   img {
-    width: 280px;
+    width: 260px;
     border-radius: 50%;
 
     @media (max-width: 860px) {
-      width: 200px;
+      width: 180px;
     }
   }
 `
@@ -72,7 +73,7 @@ export const BoxTextoContatos = styled.div`
   text-align: center;
 `
 
-export const BoxTexto = styled.div`
+export const BoxApresentacao = styled.div`
   margin: 50px;
   margin-left: 0px;
 
@@ -89,15 +90,16 @@ export const MeuNome = styled.div`
 export const Barrinha = styled.div`
   margin-top: 7px;
   margin-bottom: 7px;
-  min-width: 8px;
+  width: 6px;
   border-radius: 3px;
 `
 
 export const BoxAcoes = styled.div`
   margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: end;
-  gap: 20px;
+  gap: 10px;
   
   @media (max-width: 860px) {
     justify-content: center;
