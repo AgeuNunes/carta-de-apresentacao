@@ -1,6 +1,7 @@
 import {
   BarraLateral,
   Barrinha,
+  Box1,
   BoxAcoes,
   BoxApresentacao,
   BoxContatos,
@@ -27,7 +28,7 @@ export function Home() {
 
   return (
     <Container>
-      <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
+      <Box1>
         <BarraLateral style={{ background: Theme.palette.primary.main }} />
         <Box sx={{ width: "100%" }}>
           <BoxImg>
@@ -65,7 +66,7 @@ export function Home() {
             </Box>
           </BoxContatos>
         </Box>
-      </Box>
+      </Box1>
       <BoxApresentacao>
         <MeuNome>
           <Barrinha style={{ background: Theme.palette.primary.main }} />

@@ -12,6 +12,15 @@ export const Container = styled.div`
   }
 `
 
+export const Box1 = styled.div`
+  display: flex;
+  justifyContent: space-between;
+  
+  @media (max-width: 860px) {
+    width: 100%;
+  }
+`
+
 export const BarraLateral = styled.div`
   width: 30px;
   height: 100%;
