@@ -1,19 +1,21 @@
 //CORES EM USO
 export const ColorsUse = {
   backgroundPrimary: "#fff",
-  backgroundSecondary: "#f7f7f8",
+  backgroundSecondary: "#f3f3f3",
   textPrimary: "#1b0b04",
-  textSecondary: "#084B83",
-  primary: "#084B83",
+  textSecondary: "#315184",
+  primary: "#315184",
   secondary: "#0a5129"
 }
 
 //OPÇÕES DE CORES
 export const LigthBlue = {
   backgroundPrimary: "#fff",
-  backgroundSecondary: "#f7f7f8",
-  text: "#1b0b04",
-  primary: "#021869",
+  backgroundSecondary: "#f3f3f3",
+  textPrimary: "#1b0b04",
+  textSecondary: "#315184",
+  primary: "#315184",
+  secondary: "#0a5129"
 }
 
 export const LigthGreen = {
