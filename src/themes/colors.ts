@@ -1,50 +1,52 @@
 //CORES EM USO
 export const ColorsUse = {
-  background: "#fff",
-  backgroundEmphasis: "#eeeeee",
-  text: "#000",
-  emphasis: "#273574",
+  backgroundPrimary: "#fff",
+  backgroundSecondary: "#f7f7f8",
+  textPrimary: "#1b0b04",
+  textSecondary: "#084B83",
+  primary: "#084B83",
+  secondary: "#0a5129"
 }
 
 //OPÇÕES DE CORES
 export const LigthBlue = {
-  background: "#fff",
-  backgroundEmphasis: "#eeeeee",
-  text: "#000",
-  emphasis: "#273574",
+  backgroundPrimary: "#fff",
+  backgroundSecondary: "#f7f7f8",
+  text: "#1b0b04",
+  primary: "#021869",
 }
 
 export const LigthGreen = {
-  background: "#fff",
-  backgroundEmphasis: "#eeeeee",
+  backgroundPrimary: "#fff",
+  backgroundSecondary: "#eeeeee",
   text: "#000",
-  emphasis: "#0a5129",
+  primary: "#0a5129",
 }
 
 export const DarkGreen = {
-  background: "#151515",
-  backgroundEmphasis: "#1e2226",
+  backgroundPrimary: "#151515",
+  backgroundSecondary: "#1e2226",
   text: "#fff",
-  emphasis: "#4cd137",
+  primary: "#4cd137",
 }
 
 export const DarkYellow = {
-  background: "#151515",
-  backgroundEmphasis: "#1e2226",
+  backgroundPrimary: "#151515",
+  backgroundSecondary: "#1e2226",
   text: "#fff",
-  emphasis: "#ffa500",
+  primary: "#ffa500",
 }
 
 export const DarkYellow2 = {
-  background: "#2c3536",
-  backgroundEmphasis: "#1e2226",
+  backgroundPrimary: "#2c3536",
+  backgroundSecondary: "#1e2226",
   text: "#fff",
-  emphasis: "#f2c410",
+  primary: "#f2c410",
 }
 
 export const DarkOrange = {
-  background: "#151515",
-  backgroundEmphasis: "#1e2226",
+  backgroundPrimary: "#151515",
+  backgroundSecondary: "#1e2226",
   text: "#fff",
-  emphasis: "#e65100",
+  primary: "#e65100",
 }

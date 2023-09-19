@@ -3,17 +3,19 @@ import { ColorsUse } from "./colors";
 
 export const Theme = createTheme({
   palette: {
-    primary: {
-      main: ColorsUse.emphasis
-    },
     background: {
-      default: ColorsUse.background,
-      paper: ColorsUse.backgroundEmphasis
+      default: ColorsUse.backgroundPrimary,
+      paper: ColorsUse.backgroundSecondary
     },
-  },
-  typography: {
-    allVariants: {
-      color: ColorsUse.text
-    }
+    text: {
+      primary: ColorsUse.textPrimary,
+      secondary: ColorsUse.textSecondary
+    },
+    primary: {
+      main: ColorsUse.primary
+    },
+    secondary: {
+      main: ColorsUse.secondary
+    },
   }
 });
