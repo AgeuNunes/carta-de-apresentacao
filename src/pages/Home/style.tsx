@@ -62,7 +62,6 @@ export const BoxContatos = styled.div`
 export const BoxIconeContatos = styled.div`
   width: 60px;
   height: 60px;
-  border: 2px solid;
   border-radius: 15px;
   margin-bottom: 10px;
   display: flex;
@@ -73,7 +72,6 @@ export const BoxIconeContatos = styled.div`
 export const BoxTextoContatos = styled.div`
   width: 230px;
   height: 60px;
-  border: 2px solid;
   border-radius: 15px;
   margin-bottom: 10px;
   display: flex;
@@ -107,8 +105,7 @@ export const BoxAcoes = styled.div`
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
-  justify-content: end;
-  gap: 10px;
+  justify-content: flex-end;
   
   @media (max-width: 860px) {
     justify-content: center;

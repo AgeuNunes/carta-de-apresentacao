@@ -36,28 +36,28 @@ export function Home() {
           </BoxImg>
           <BoxContatos>
             <Box>
-              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxIconeContatos style={{ background: Theme.palette.background.paper }}>
                 <LocationOnIcon color="primary" />
               </BoxIconeContatos>
-              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxIconeContatos style={{ background: Theme.palette.background.paper }}>
                 <PhoneIcon color="primary" />
               </BoxIconeContatos>
-              <BoxIconeContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxIconeContatos style={{ background: Theme.palette.background.paper }}>
                 <EmailIcon color="primary" />
               </BoxIconeContatos>
             </Box>
             <Box aria-label="textos contatos">
-              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
                 <Typography>
                   Lírio do Vale <br /> Manaus/AM - Brasil
                 </Typography>
               </BoxTextoContatos>
-              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
                 <Typography>
                   +55 92 98440-4083
                 </Typography>
               </BoxTextoContatos>
-              <BoxTextoContatos style={{ borderColor: Theme.palette.background.paper }}>
+              <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
                 <Typography>
                   nunes.ageu@gmail.com
                 </Typography>
@@ -73,7 +73,7 @@ export function Home() {
           <Typography style={{ fontSize: "30px" }}>
             Olá, meu nome é <strong
               style={{
-                color: Theme.palette.primary.main,
+                color: Theme.palette.text.secondary,
                 fontSize: "35px",
               }}>Ageu Nunes</strong>!
           </Typography>
@@ -109,17 +109,17 @@ export function Home() {
             Currículo
           </Button>
         </BoxAcoes>
-          <BoxAcoes>
-            <IconButton color="inherit" href="https://wa.me/5592984404083" target="_blank">
-              <WhatsAppIcon fontSize="large" />
-            </IconButton>
-            <IconButton color="inherit" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
-              <LinkedInIcon fontSize="large" />
-            </IconButton>
-            <IconButton color="inherit" href="https://github.com/AgeuNunes" target="_blank">
-              <GitHubIcon fontSize="large" />
-            </IconButton>
-          </BoxAcoes>
+        <BoxAcoes>
+          <IconButton color="primary" href="https://wa.me/5592984404083" target="_blank">
+            <WhatsAppIcon fontSize="large" />
+          </IconButton>
+          <IconButton color="primary" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
+            <LinkedInIcon fontSize="large" />
+          </IconButton>
+          <IconButton color="primary" href="https://github.com/AgeuNunes" target="_blank">
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </BoxAcoes>
       </BoxApresentacao>
     </Container>
   );
