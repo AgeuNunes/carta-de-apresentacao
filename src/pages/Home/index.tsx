@@ -13,7 +13,7 @@ import {
 } from "./style";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 
-import Foto from "../../shared/assets/images/perfil1260.png";
+import Foto from "../../shared/assets/images/perfil900.png";
 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -40,7 +40,7 @@ export function Home() {
                 <LocationOnIcon color="primary" />
               </BoxIconeContatos>
               <BoxIconeContatos style={{ background: Theme.palette.background.paper }}>
-                <PhoneIcon color="primary" />
+                <PhoneIcon color="primary" target="_blank" />
               </BoxIconeContatos>
               <BoxIconeContatos style={{ background: Theme.palette.background.paper }}>
                 <EmailIcon color="primary" />
@@ -110,13 +110,13 @@ export function Home() {
           </Button>
         </BoxAcoes>
         <BoxAcoes>
-          <IconButton color="primary" href="https://wa.me/5592984404083" target="_blank">
+          <IconButton color="inherit" href="https://wa.me/5592984404083" target="_blank">
             <WhatsAppIcon fontSize="large" />
           </IconButton>
-          <IconButton color="primary" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
+          <IconButton color="inherit" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
             <LinkedInIcon fontSize="large" />
           </IconButton>
-          <IconButton color="primary" href="https://github.com/AgeuNunes" target="_blank">
+          <IconButton color="inherit" href="https://github.com/AgeuNunes" target="_blank">
             <GitHubIcon fontSize="large" />
           </IconButton>
         </BoxAcoes>
