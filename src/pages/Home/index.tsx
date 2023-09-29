@@ -13,7 +13,7 @@ import {
 } from "./style";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 
-import Foto from "../../shared/assets/images/perfil900.png";
+import Foto from "../../shared/assets/images/perfil600.png";
 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
