@@ -1,10 +1,10 @@
 //CORES EM USO
 export const ColorsUse = {
-  backgroundPrimary: "#fff",
-  backgroundSecondary: "#f3f3f3",
-  textPrimary: "#1b0b04",
-  textSecondary: "#315184",
-  primary: "#315184",
+  backgroundPrimary: "#151515",
+  backgroundSecondary: "#1e2226",
+  textPrimary: "#fff",
+  textSecondary: "#4cd137",
+  primary: "#4cd137",
   secondary: "#0a5129"
 }
 
@@ -28,8 +28,10 @@ export const LigthGreen = {
 export const DarkGreen = {
   backgroundPrimary: "#151515",
   backgroundSecondary: "#1e2226",
-  text: "#fff",
+  textPrimary: "#fff",
+  textSecondary: "#4cd137",
   primary: "#4cd137",
+  secondary: "#0a5129"
 }
 
 export const DarkYellow = {
