@@ -104,13 +104,13 @@ export function Home() {
           </Button>
         </BoxAcoes>
         <BoxAcoes>
-          <IconButton color="inherit" href="https://wa.me/5592984404083" target="_blank">
+          <IconButton color="secondary" href="https://wa.me/5592984404083" target="_blank">
             <WhatsAppIcon fontSize="large" />
           </IconButton>
-          <IconButton color="inherit" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
+          <IconButton color="secondary" href="https://www.linkedin.com/in/ageu-nunes/" target="_blank">
             <LinkedInIcon fontSize="large" />
           </IconButton>
-          <IconButton color="inherit" href="https://github.com/AgeuNunes" target="_blank">
+          <IconButton color="secondary" href="https://github.com/AgeuNunes" target="_blank">
             <GitHubIcon fontSize="large" />
           </IconButton>
         </BoxAcoes>

@@ -1,11 +1,11 @@
 //CORES EM USO
 export const ColorsUse = {
-  backgroundPrimary: "#151515",
-  backgroundSecondary: "#1e2226",
-  textPrimary: "#fff",
-  textSecondary: "#4cd137",
-  primary: "#4cd137",
-  secondary: "#0a5129"
+  backgroundPrimary: "#050e19",
+  backgroundSecondary: "#071222",
+  textPrimary: "#e2ebf9",
+  textSecondary: "#0d7cde",
+  primary: "#0d7cde",
+  secondary: "#34D2FE"
 }
 
 //OPÇÕES DE CORES
@@ -18,34 +18,22 @@ export const LigthBlue = {
   secondary: "#0a5129"
 }
 
-export const LigthGreen = {
-  backgroundPrimary: "#fff",
-  backgroundSecondary: "#eeeeee",
-  text: "#000",
-  primary: "#0a5129",
-}
-
 export const DarkGreen = {
-  backgroundPrimary: "#151515",
-  backgroundSecondary: "#1e2226",
-  textPrimary: "#fff",
-  textSecondary: "#4cd137",
-  primary: "#4cd137",
-  secondary: "#0a5129"
+  backgroundPrimary: "#010901",
+  backgroundSecondary: "#042003",
+  textPrimary: "#e8fde8",
+  textSecondary: "#42c039",
+  primary: "#42c039",
+  secondary: "#6df06a"
 }
 
-export const DarkYellow = {
-  backgroundPrimary: "#151515",
-  backgroundSecondary: "#1e2226",
-  text: "#fff",
-  primary: "#ffa500",
-}
-
-export const DarkYellow2 = {
-  backgroundPrimary: "#2c3536",
-  backgroundSecondary: "#1e2226",
-  text: "#fff",
-  primary: "#f2c410",
+export const DarkBlue = {
+  backgroundPrimary: "#050e19",
+  backgroundSecondary: "#071222",
+  textPrimary: "#e2ebf9",
+  textSecondary: "#0d7cde",
+  primary: "#0d7cde",
+  secondary: "#34D2FE"
 }
 
 export const DarkOrange = {
