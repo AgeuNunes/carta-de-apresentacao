@@ -32,7 +32,7 @@ export function Home() {
         <BarraLateral style={{ background: Theme.palette.primary.main }} />
         <Box sx={{ width: "100%" }}>
           <BoxImg>
-            <img src={Foto} alt="Foto do perfil" />
+            <img src={Foto} alt="Foto do perfil" style={{ borderColor: Theme.palette.primary.main }} />
           </BoxImg>
           <BoxContatos>
             <Box>
@@ -48,19 +48,13 @@ export function Home() {
             </Box>
             <Box aria-label="textos contatos">
               <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
-                <Typography>
-                  Lírio do Vale <br /> Manaus/AM - Brasil
-                </Typography>
+                Lírio do Vale <br /> Manaus/AM - Brasil
               </BoxTextoContatos>
               <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
-                <Typography>
-                  +55 92 98440-4083
-                </Typography>
+                +55 92 98440-4083
               </BoxTextoContatos>
               <BoxTextoContatos style={{ background: Theme.palette.background.paper }}>
-                <Typography>
-                  nunes.ageu@gmail.com
-                </Typography>
+                nunes.ageu@gmail.com
               </BoxTextoContatos>
               <Box />
             </Box>

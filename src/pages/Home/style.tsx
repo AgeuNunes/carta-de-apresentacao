@@ -27,6 +27,7 @@ export const BarraLateral = styled.div`
   
   @media (max-width: 860px) {
     width: 15px;
+    display: none;
   }
 `
 
@@ -41,8 +42,9 @@ export const BoxImg = styled.div`
   img {
     width: 260px;
     border-radius: 50%;
-
+    
     @media (max-width: 860px) {
+      border: 10px solid;
       width: 180px;
     }
   }
@@ -67,6 +69,11 @@ export const BoxIconeContatos = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 860px) {
+    width: 50px;
+    height: 50px;
+  }
 `
 
 export const BoxTextoContatos = styled.div`
@@ -75,9 +82,16 @@ export const BoxTextoContatos = styled.div`
   border-radius: 15px;
   margin-bottom: 10px;
   display: flex;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  @media (max-width: 860px) {
+    width: 190px;
+    height: 50px;
+    font-size: 13px;
+  }
 `
 
 export const BoxApresentacao = styled.div`
@@ -93,12 +107,17 @@ export const MeuNome = styled.div`
   display: flex;
   gap: 10px;
 `
-  
+
 export const Barrinha = styled.div`
-  margin-top: 7px;
-  margin-bottom: 7px;
-  width: 6px;
-  border-radius: 3px;
+margin-top: 7px;
+margin-bottom: 7px;
+width: 6px;
+border-radius: 3px;
+
+@media (max-width: 860px) {
+  width: 12px;
+  border-radius: 6px;
+}
 `
 
 export const BoxAcoes = styled.div`
